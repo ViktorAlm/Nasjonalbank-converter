@@ -51,3 +51,6 @@ https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-13&lang=en
 * da.16kHz.0611.tar.gz
 
 https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-19&lang=en
+
+Vaugely based on 
+https://github.com/codemandosch/taco2swe
