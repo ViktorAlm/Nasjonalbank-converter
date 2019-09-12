@@ -9,38 +9,39 @@ The extracted folders from Swedish and Norwegian has different naming convention
 def openFolderStations(folder, data, wavs, spls, lang="swe"):
 ```
 
-to swe or no depending of which format you choose
+to "swe" or "no" depending of which format you choose, i have no idea wich format the danish convention follows
 
 swe:
 ```
 "0467 sv train 1/", "0467 sv train 2/", "0467 sv train 3/", "0468 sv test/"
 ```
-```
+
 no:
+```
 "no.16khz.0463-1/", "no.16khz.0463-2/", "no.16khz.0463-3/", "no.16khz.0463-4/", "no.16khz.0464-testing/"]
 ```
 Run it in the same path as the folders. The paths works on ubuntu. This has no fancy threading. 1 core to rule them all.
 
-###Swedish:
-*sve.16khz.0467-1.tar.gz
-*sve.16khz.0467-2.tar.gz
-*sve.16khz.0467-3.tar.gz
-*sve.16khz.0468.tar.gz
+### Swedish:
+* sve.16khz.0467-1.tar.gz
+* sve.16khz.0467-2.tar.gz
+* sve.16khz.0467-3.tar.gz
+* sve.16khz.0468.tar.gz
 
 https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-16&lang=en
 
-###Norwegian:
-*no.16khz.0463-1.tar.gz
-*no.16khz.0463-2.tar.gz
-*no.16khz.0463-3.tar.gz
-*no.16khz.0463-4.tar.gz
-*no.16khz.0464-testing.tar.gz
+### Norwegian:
+* no.16khz.0463-1.tar.gz
+* no.16khz.0463-2.tar.gz
+* no.16khz.0463-3.tar.gz
+* no.16khz.0463-4.tar.gz
+* no.16khz.0464-testing.tar.gz
 
 https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-13&lang=en
 
-###Danish(untested needs recoding depending on folder naming convention):
-*da.16kHz.0565-1.tar.gz
-*da.16kHz.0565-2.tar.gz
-*da.16kHz.0611.tar.gz
+### Danish(untested needs recoding depending on folder naming convention):
+* da.16kHz.0565-1.tar.gz
+* da.16kHz.0565-2.tar.gz
+* da.16kHz.0611.tar.gz
 
 https://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-19&lang=en
