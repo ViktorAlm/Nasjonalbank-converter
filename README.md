@@ -20,7 +20,7 @@ no:
 ```
 "no.16khz.0463-1/", "no.16khz.0463-2/", "no.16khz.0463-3/", "no.16khz.0463-4/", "no.16khz.0464-testing/"]
 ```
-Run it in the same path as the folders. The paths works on ubuntu. This has no fancy threading. 1 core to rule them all.
+Run it in the same path as the folders. Line 177-178 sets which folders to convert merge them or remove howevery you feel like. The paths works on ubuntu. This has no fancy threading. 1 core to rule them all.
 
 ### Swedish:
 * sve.16khz.0467-1.tar.gz
