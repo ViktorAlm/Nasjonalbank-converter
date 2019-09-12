@@ -1,7 +1,13 @@
 # Nasjonalbank-converter
-###Converts nasjonalbiblioteks språkbank 16khz dataset into libirispeech format
+#### Converts nasjonalbiblioteks språkbank 16khz dataset into something like libirispeechs format
+```
+swe_nor/{author_name}/{recording_session}/{recording}.wav
+swe_nor/{author_name}/{recording_session}/texts
 
-This is a hack that i created with the intention of never showing anyone. Its javscripty python with random weirdness thrown into it. I am ashamed.
+recording|text
+```
+
+This is a hack that i created with the intention of never showing anyone. Its javscripty python with random weirdness thrown into it. I am ashamed. it creates some empty folders and some folders with their recording session as authors. I just deleted those instead of fixing the code so some manual clean up is needed afterwards if you do not wish do fix yourself.
 
 The extracted folders from Swedish and Norwegian has different naming conventions. The 0467 for Swedish is a dataset ID like 0463 is for Norwegian. This name id is repeated within the folder structures. Theres an adb folder which has the id in it. I grab the ID from the main folder name, but since the name of the folders follow a different naming convention i suggest renaming either of them into one naming convention and choosing the default parameter of
 
